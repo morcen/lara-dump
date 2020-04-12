@@ -1,0 +1,21 @@
+{
+    "name": "morcen/mylaradump",
+    "description": "mysqldump for Laravel projects",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morcen C",
+            "email": "hello@morcen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Morcen\\MyLaraDump\\": "src/"
+        }
+    },
+    "require": {
+        "ifsnop/mysqldump-php": "dev-master"
+    }
+}
